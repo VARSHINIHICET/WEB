@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Newsletter signup</title>
+</head>
+<body>
+<h1>Newsletter signup</h1>
+<form onsubmit="return validate Form()">
+<label>Name:</label>
+<input type="text"id="name">
+<br><br>
+<label>Email:</label>
+<input type="email"id="email">
+<br><br>
+<label>phone:</label>
+<input type="text"id="phone">
+<br><br>
+<button type="submit">subscribe</button>
+</from>
+<script>
+function validate form(){
+let name=document.getElement By Id("name").Value;let email=document getElement By Id("email").Value;let phone=document.getElement By Id("phone").value;
+if(name==" "||email==" "||phone==" ")
+{
+alert("Please fill in all fields.");
+return falsae;
+}
+alert("Newsaletter subscription successful!");
+return false;
+}
+</script>
+</body>
+</html>
